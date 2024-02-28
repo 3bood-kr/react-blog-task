@@ -1,0 +1,13 @@
+.home-page{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: calc(100vh - 65px);
+    padding-inline-start: 60px;
+    h1{
+        font-size: 5rem;
+    }
+    @media (max-width: 576px) { 
+        padding-inline-start: 0;
+    }
+}
