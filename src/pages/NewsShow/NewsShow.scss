@@ -6,7 +6,7 @@
         margin-block-end: 15px;
     }
     h1{
-        font-size: 3rem;
+        font-size: clamp(1.5625rem, 1.1168rem + 2.5109vw, 3rem);
         margin-block-end: 15px;
     }
 }
