@@ -9,7 +9,7 @@ export default function NewsPage() {
   const news = useAppSelector((state) => state.news);
   return (
     <main className='news-page main-container'>
-        <div className="row w-100 g-5 p-0 m-0">
+        <div className="row w-100 g-3 g-md-5 p-0 m-0">
           {
             news.map((item, index) => (
               <div className="col-12 col-md-6 col-lg-4">

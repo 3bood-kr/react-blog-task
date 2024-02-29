@@ -17,6 +17,10 @@
         padding: 10px;
         height: 100%;
 
+        p{
+            font-size: clamp(0.875rem, 0.8362rem + 0.2183vw, 1rem);
+        }
+
         .main-button{
             display: block;
             width: fit-content;

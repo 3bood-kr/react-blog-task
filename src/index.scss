@@ -25,6 +25,6 @@ body{
 .main-container{
   min-height: calc(100vh - 65px);
   padding-block: 50px;
-  width: min(1200px, calc(100% - 50px));
+  width: min(1200px, calc(100% - 20px));
   margin: auto;
 }
