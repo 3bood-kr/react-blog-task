@@ -6,7 +6,7 @@ import './NewsShow.scss'
 function NewsShow() {
 
     const params = useParams();
-    const id = parseInt(params.id);
+    const id = Number(params.id);
     const post = useAppSelector(state => state.news.find(item => item.id == id));
 
     if(!post){
