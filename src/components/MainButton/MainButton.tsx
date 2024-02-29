@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './MainButton.scss';
 
 interface Props{    
@@ -9,9 +9,9 @@ interface Props{
 function MainButton({ link, text }: Props) {
   return (
     <>
-        <NavLink to={link} className='main-button'>
+        <Link to={link} className='main-button'>
             {text}
-        </NavLink>
+        </Link>
     </>
   )
 }
